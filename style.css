@@ -57,15 +57,48 @@ input{
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.2) , 0 5px 5px 0 rgba(0,0,0,0.2);
 }
-#reader {
-    width: 600px;
-}
-#result {
-    text-align: center;
-    font-size: 1.5rem;
-}
+
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bkImg{
+    flex: 1;
+    height: 100vh;
+    background-image: url(claudio-schwarz-q8kR_ie6WnI-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#scanner{
+    background-color: aqua;
+}
+
+#reader{
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2) , 0 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+#result{
+    text-align: center;
+    font-size: 1.5rem;
+    height: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2) , 0 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.scanResult{
+    border-bottom: black;
+    background-color: #ececec;
+    text-align: center;
 }
